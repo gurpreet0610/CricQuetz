@@ -111,8 +111,6 @@ class get_attri:
         x = (x.replace(' (c)','')).replace(' (wk)','').replace(' (c & wk)','')
         return x
 
-# date='2010-02-18'
-# x=get_attri()
 # bat,ball=x.get_bb(name,date)
 # print(bat)
 # print(ball)
