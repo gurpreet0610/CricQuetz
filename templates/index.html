@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Criquetz</title>
+    <link rel="shortcut icon" href="{{ url_for('static',    filename='images/logo.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- <link rel="stylesheet" href="css/main.css">
+<script src="js/controller.js"></script> -->
+<link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+<script src="{{ url_for('static',    filename='js/controller.js') }}"></script>
+</head>
+<body>
+    <div id="content">
+        <div>
+            <!-- <header>
+                <div id="logo">
+                    <img src="images/logo.png" alt="logo">
+               
+                    <span>Criquetz</span>
+                </div>
+                <div class="header_left">
+                    <span>Thrill! Entertainment! Suspense!</span>
+                </div>
+            </header> -->
+            <h1 class="header-w3ls">IPL Result Predictor and Visualizer</h1>
+            <div id="main" class="content-w3ls">
+                    <h2>CRICQUETZ</h2>
+                    <p>Smart IPL Outcome Predictor along with the Insights</p>
+               <section id="section_1">
+                   <div class="container">
+                   
+                
+                   <div class="row">
+                       <div class="col-sm-12 col-12">
+                           <div class="select_team">
+                               <div class="home_team">
+                                   <label for="homeTeam" class="homeTeam">Home Team</label>
+                                    <select name="select_homeTeam" id="select_homeTeam">
+                                            <option value="select">Select Home Team</option>
+                                            <option value="Chennai Super Kings">Chennai Super Kings</option>
+                                            <option value="Delhi Daredevils">	Delhi Daredevils</option>
+                                            <option value="Kings XI Punjab">Kings XI Punjab</option>
+                                            <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                                            <option value="Mumbai Indians">Mumbai Indians</option>
+                                            <option value="Rajasthan Royals">Rajasthan Royals</option>
+                                            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore </option>
+                                            <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                                    </select>
+                               </div>
+                               <div class="secondTeam">
+                                   <label for="secondTeam">Outside Team</label>
+                                    <select name="select_outsideTeam" id="select_outsideTeam">
+                                        <option value="select">Select Second Team</option>
+                                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                                        <option value="Delhi Daredevils">	Delhi Daredevils</option>
+                                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                                        <option value="Mumbai Indians">Mumbai Indians</option>
+                                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore </option>
+                                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                                   </select>
+                               </div>
+                               <div class="submit_teamname" id="submitNames">
+                                   <button class="btn btn-info">Submit</button>
+
+                               </div>
+                               <div class="showError">
+                                   <span id="showError">
+                                   </span>
+                               </div>                                         
+                             </div>
+                       </div>
+                   </div>
+                   <div class="section_heading">
+                    <span>Toss Winning Team</span>
+                   </div>
+                   <div>
+                       <label for="">Toss is Win By</label>
+                                   <select name="tossTeam" class="TossWinningTeam" id="tossTeam">
+                                       <option value="select">Select Toss Winning Team</option>
+                                       <!--<option value="Chennai Super Kings"></option>
+                                       <option value="Delhi Daredevils">	</option> -->
+                                  </select>
+                   </div>
+                   <div class="section_heading">
+                       <span>Toss Decision</span>
+                      </div>
+                      <div>
+                          <label for="">Team Chooses to</label>
+                                      <select name="decision" id="decision">
+                                          <option value="select">Choice</option>
+                                          <option value="Bat">Batting</option>
+                                          <option value="Ball">Bowling</option>
+                                     </select>
+                      </div>
+                   <div class="section_heading">
+                        <span>Choose Team Players:</span>
+                         
+                    </div>
+                   <div class="choosePlayers">
+                        
+                   <div class="row">    
+                        <div class="col-sm-6">
+                            <div class="choosePlayersTeamOne">
+                                        <span>
+                                            Home Team Players:
+                                        </span>
+                                            <ul class="team1"></ul>
+                                        </div>                                                               
+                            </div>
+                       <div class="col-sm-6">
+                            <div class="choosePlayersTeamTwo">
+                                    <span>
+                                            Outside Team Players:
+                                        </span>
+                                 <ul class="team2"></ul>
+                             </div>                      
+                       </div>
+                   </div>
+                   </div>
+                   <div class="orderDone" id="submitBattingOrder">
+                       <button class="btn btn-info">Submit Batting Order</button>
+                        
+                   </div>
+                   <div class="section_heading">
+                        <span>Choose Captain</span>
+                         
+                    </div>
+                   <div class="chooseCaptain">
+                   
+                   <div class="row">
+                       <div class="col-sm-6">
+                            
+                                    
+                                    <div class="chooseCaptainOne">
+                                        <span>Home Team</span>
+                                      <ul class="captain1"></ul>
+                                    </div>
+                                    
+                                     
+                                
+
+                       </div>
+                       <div class="col-sm-6">
+                            <div class="chooseCaptainTwo">
+                                    <span>Outside Team</span>
+                                    <ul class="captain2"></ul>
+                                  </div>
+
+                       </div>
+
+                   </div>
+                </div>
+                <div id="FinalSubmission">
+                    <button class="btn btn-info">Submit the Data</button>
+                </div>
+                <div id="successMessage">
+                    <span class="btn btn-success successmsg"></span>
+
+                </div>
+                </div>
+               </section>
+                
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+    "team": [
+       {
+          "name": "Kings XI Punjab",
+          "member": [
+             "Mayank Agarwal",
+             "Axar Patel",
+             "Yuvraj Singh",
+             "Karun Nair",
+             "Lokesh Rahul",
+             "Mujeeb Ur Rahman",
+             "David Miller",
+             "Aaron Finch",
+             "Marcus Stoinis",
+             "Ravichandran Ashwin",
+             "Ankit Rajpoot"
+          ],
+          "captainName": "Mujeeb Ur Rahman"
+       },
+       {
+          "name": "Delhi Daredevils",
+          "member": [
+             "Shreyas Iyer",
+             "Rishabh Pant",
+             "Glenn Maxwell",
+             "Gautam Gambhir",
+             "Jason Roy",
+             "Colin Munro",
+             "Mohammed Shami",
+             "Amit Mishra",
+             "Prithvi Shaw",
+             "Rahul Tewatia",
+             "Vijay Shankar"
+          ],
+          "captainName": "Gautam Gambhir"
+       },
+       {"toss":"Kings XI Punjab"},
+       {"inning":"Kings XI Punjab"}
+    ]
+ }

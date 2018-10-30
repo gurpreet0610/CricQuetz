@@ -1,0 +1,187 @@
+body {
+	background: url(../images/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+h1.header-w3ls {
+    text-align: center;
+    font-size: 38px;
+    font-weight: normal;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 25px;
+    color: #f5ba14;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #f4f4f4;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0px 0 30px;
+}
+.content-w3ls {
+	width: 70%;
+    margin: 45px auto 45px;
+    background-color:rgba(86, 178, 212, 0.23);
+    padding: 35px 35px;
+}
+
+header{
+    width: 100%;
+    background-color: #16C3C1;
+    height: 90px;
+}
+#logo{
+    display: inline;
+    text-align: left;
+}
+#logo span{
+    color: white;
+    font-size: 24px;
+    font-family: initial;
+}
+#logo img{
+    display: inline;
+    width: 9%;
+    margin-left: 20px;
+
+}
+.row{
+    width: 100%;
+}
+.header_left{
+    display: inline;
+    float: right;
+    margin: 3%;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-family: initial;
+
+}
+.section_heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f5ba14;
+    font-size: 24px;
+    font-family: initial;
+}
+.select_team label{
+    margin-right: 20px;
+    font-size: 18px;
+    color:#f4f4f4;
+    font-family: initial;
+}
+.select_team select{
+    background-color: transparent;
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    color: #f4f4f4;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+.select_team select option{
+color: black;
+}
+.homeTeam{
+    margin-right: 33px !important;
+}
+.section_heading2 span{
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0px;
+    border-bottom: 1px solid #f4f4f4;
+    color: #f4f4f4;
+    font-family: initial;
+}
+.choosePlayers,.chooseCaptain{
+    background-color: #f4f4f4;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    height:100%;
+    margin: 20px 0px;
+    padding: 10px;
+
+}
+.chooseCaptainOne{
+    text-align: left;
+}
+.choosePlayers span,.chooseCaptain span{
+    font-size: 20px;
+    font-family: initial;
+}
+ul li{
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    font-family: initial;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 6px;
+}
+label{
+    color: #f4f4f4;
+    padding: 6px;
+}
+select{
+    background-color: transparent;
+    color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    padding: 5px;
+    outline: none;
+}
+select option{
+    color: black;
+}
+ul li:nth-child(even){
+    background-color: #5bc0de;
+}
+ul li:nth-child(odd){
+    background-color: #f4f4f4;
+}
+.icon{
+    height: 20px;
+    text-align: right;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.red{
+    background-color: #f0ad4e !important;
+}
+#successMessage{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0;
+}
+#successMessage span{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.show
+{
+    opacity: 1 !important;
+}
